@@ -6,8 +6,8 @@ import { AccionSheetPage } from './accion-sheet.page';
 const routes: Routes = [
   {
     path: '',
-    component: AccionSheetPage
-  }
+    component: AccionSheetPage,
+  },
 ];
 
 @NgModule({
