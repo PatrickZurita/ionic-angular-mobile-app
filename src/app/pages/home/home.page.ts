@@ -31,6 +31,11 @@ export class HomePage implements OnInit {
       redirectTo: '/home',
       color: 'primary',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'Avatar',
+      redirectTo: '/avatar',
+    },
   ];
 
   constructor() {}
