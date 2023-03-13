@@ -53,6 +53,11 @@ export class HomePage implements OnInit {
       redirectTo: '/check',
       color: 'primary',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'Date Time',
+      redirectTo: '/date-time',
+    },
   ];
 
   constructor() {}

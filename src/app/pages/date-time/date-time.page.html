@@ -1,0 +1,26 @@
+<app-header title="Date Time"></app-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Fecha Inicio</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-datetime
+        [value]="fechaIni.toISOString()"
+        display-format="DD.MM.YYYY HH:mm"
+        (ionChange)="dateChange($event)"
+      ></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-datetime
+        presentation="month-year"
+        min="2020-01"
+        max="2023-12"
+        [showDefaultButtons]="true"
+      >
+        <span slot="title">Ingresa el Periodo</span>
+      </ion-datetime>
+    </ion-item>
+  </ion-list>
+</ion-content>
