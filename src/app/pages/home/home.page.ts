@@ -47,6 +47,12 @@ export class HomePage implements OnInit {
       name: 'Card',
       redirectTo: '/card',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'Check',
+      redirectTo: '/check',
+      color: 'primary',
+    },
   ];
 
   constructor() {}
