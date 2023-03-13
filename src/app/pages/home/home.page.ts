@@ -27,36 +27,36 @@ export class HomePage implements OnInit {
     },
     {
       icon: 'logo-ionic',
-      name: 'Home',
-      redirectTo: '/home',
-      color: 'primary',
-    },
-    {
-      icon: 'logo-ionic',
       name: 'Avatar',
       redirectTo: '/avatar',
+      color: 'primary',
     },
     {
       icon: 'logo-ionic',
       name: 'Button',
       redirectTo: '/button',
-      color: 'primary',
     },
     {
       icon: 'logo-ionic',
       name: 'Card',
       redirectTo: '/card',
+      color: 'primary',
     },
     {
       icon: 'logo-ionic',
       name: 'Check',
       redirectTo: '/check',
-      color: 'primary',
     },
     {
       icon: 'logo-ionic',
       name: 'Date Time',
       redirectTo: '/date-time',
+      color: 'primary',
+    },
+    {
+      icon: 'logo-ionic',
+      name: '420 store',
+      redirectTo: '/product-list',
     },
   ];
 
