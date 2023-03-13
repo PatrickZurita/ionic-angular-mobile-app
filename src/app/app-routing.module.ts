@@ -29,6 +29,15 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/avatar/avatar.module').then((m) => m.AvatarPageModule),
   },
+  {
+    path: 'button',
+    loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+
 ];
 
 @NgModule({
