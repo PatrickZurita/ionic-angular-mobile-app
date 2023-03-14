@@ -55,12 +55,18 @@ export class HomePage implements OnInit {
     },
     {
       icon: 'logo-ionic',
-      name: '420 store',
+      name: 'Store',
       redirectTo: '/product-list',
+    },
+    {
+      icon: 'logo-ionic',
+      name: 'Fab buttons',
+      redirectTo: '/fab',
+      color: 'primary',
     },
   ];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }
