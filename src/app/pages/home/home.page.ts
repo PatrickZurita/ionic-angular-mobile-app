@@ -69,6 +69,17 @@ export class HomePage implements OnInit {
       name: 'Grid',
       redirectTo: '/grid',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'Input forms',
+      redirectTo: '/input',
+      color: 'primary',
+    },
+    {
+      icon: 'logo-ionic',
+      name: 'List - Sliding',
+      redirectTo: '/list',
+    },
   ];
 
   constructor() { }
