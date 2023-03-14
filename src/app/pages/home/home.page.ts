@@ -64,6 +64,11 @@ export class HomePage implements OnInit {
       redirectTo: '/fab',
       color: 'primary',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'Grid',
+      redirectTo: '/grid',
+    },
   ];
 
   constructor() { }
