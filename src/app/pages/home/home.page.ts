@@ -80,9 +80,15 @@ export class HomePage implements OnInit {
       name: 'List - Sliding',
       redirectTo: '/list',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'List - Reorder',
+      redirectTo: '/list-reorder',
+      color: 'primary',
+    },
   ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() { }
+  ngOnInit() {}
 }
