@@ -86,6 +86,11 @@ export class HomePage implements OnInit {
       redirectTo: '/list-reorder',
       color: 'primary',
     },
+    {
+      icon: 'logo-ionic',
+      name: 'Loading',
+      redirectTo: '/loading',
+    },
   ];
 
   constructor() {}
